@@ -1,0 +1,626 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #7e7f84;
+	min-width: 320px;
+	}
+
+
+/*=============top-bar==============*/
+.top-bar {
+	min-height: 75px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+.logo a {
+	font-size: 23px;
+	color: #67686d;
+	text-transform: uppercase;
+	padding-left: 0;
+	margin-top: 10px;
+	
+}
+
+.navbar-text {
+	margin-top: 25px;
+	margin-right: 0;
+}
+
+.phone {
+	font-size: 12px;
+	margin-right: 10px;
+	
+}
+.phone img {
+	margin: 0 5px;
+}
+
+.shopCart {
+	border:1px solid #ccc;
+	padding: 5px 15px 5px 5px;
+}
+
+.shopCart .fa-shopping-cart {
+	padding: 0 5px;
+}
+
+.shopCart a {
+	text-transform: uppercase;
+	color: #7e7f84;
+	text-decoration: none;
+}
+
+.shopCart a:hover {
+	color: #f45a40;
+}
+
+/*=============nav-bar==============*/
+.navbar-default {
+	border:none;
+	background: #fff;
+	margin-bottom: 0;
+	
+}
+
+.navbar-collapse {
+	padding-left:0;
+}
+
+.navbar.navbar-default .container {
+	padding-left:0;
+	padding-right: 0;
+	border-top: 1px solid #7e7f84;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	background: #fff;
+	color: #f45a40;
+	font-size: 14px;	
+	text-transform: uppercase;
+	
+}
+.navbar-default .navbar-nav > li > a {
+	background: #fff;
+	color: #000;
+	font-size: 14px;	
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #f45a40;
+}
+
+.form-control {
+	border:1px solid #f45a40;
+}
+
+.btn-search {
+	border:1px solid #f45a40;
+	background: #fff;	
+}
+.btn-search i {
+	color: #f45a40;
+	font-weight: bold;
+}
+
+
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover  {
+	background: #f45a40;
+	color: #fff;
+}
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+	margin: 0 auto;
+	width: 100;	
+	padding: 0 10px;
+	
+}
+
+ .navbar-toggle {
+	float: none;
+	width: 100%;
+	background: #f45a40;
+	padding: 10px 15px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+.navbar-default .navbar-collapse {
+	border-color: #f45a40;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border:none;
+}
+.navbar-form {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+/*================Slider=================*/
+
+.item.active {
+	position: relative;
+}
+
+.carousel-caption {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 30%;
+	left: 3%;	
+}
+
+.carousel-caption h1 {
+	font-size: 60px;
+	color: #f45a40;
+	text-transform: uppercase;
+	width: 400px;
+}
+.carousel-caption p {
+	color: #f45a40;
+	width: 400px;
+}
+
+/*=============products=============*/
+.products {
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+.products .col-sm-4 {
+	padding: 0;
+}
+
+.products-item {
+	padding: 0;
+	text-align: center;
+}
+
+.products-item img {
+	width: 100%;
+	height: auto;	
+	padding: 5px 10px;
+}
+
+.products-item h2 {
+	margin-top: 5px;
+}
+
+.products-item h2 a {
+	
+	font-size: 22px;
+	color: #f45a40;
+	text-transform: uppercase;	
+}
+.products-item h2 a:hover {	
+	text-decoration: underline;	
+}
+.products-item p {
+	padding: 5px;
+}
+
+/*===============popul-product==============*/
+
+.popul-product {
+	margin: 10px 0;
+	padding: 10px 0;
+	text-align: center;
+}
+.popul-product h2 {
+	font-size: 22px;
+	color: #67686d;
+	text-transform: uppercase;
+	margin: 10px 0 30px; 
+}
+
+.popul-product .col-sm-3 {
+	padding: 10px 0 10px;
+}
+
+.popul-prod-item {
+	padding: 0;	
+	position: relative;
+	height: 430px;
+}
+
+.popul-prod-item .prod-img {
+	width:100%;	
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+.popul-prod-item .prod-img img {	
+	padding: 5px 10px;
+}
+
+.popul-prod-item h3 {
+	margin: 5px 0;
+}
+
+.popul-prod-item h3 a {
+	color:#67686d;	
+	font-size: 18px;	
+	text-transform: uppercase;	
+}
+.popul-prod-item h3 a:hover {
+	color: #f45a40;	
+	text-decoration: blink;	
+}
+
+.popul-prod-item p {
+	text-transform: uppercase;
+	font-style: italic;
+		
+}
+
+.popul-prod-item p.small {
+	font-size: 10px;
+	font-style: normal;
+	color: #7e7f84;
+	padding: 5px 5px;
+	margin:0 20px;	
+	border-bottom: 1px solid #7e7f84;
+}
+
+.price-div {	
+	position: absolute;
+	bottom: 1%;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0 40px;	
+}
+
+.price-div .price {
+	font-size: 18px;		
+	color: #f45a40;	
+	
+}
+.price-div .fa-plus-circle {
+	font-size: 18px;	
+	color: #f45a40;		
+	line-height: 18px;	
+	
+}
+
+/*===========about=======================*/
+
+.about {
+	margin: 10px 0;
+	padding: 10px 0;
+}
+.about h2 {
+	font-size: 22px;
+	color: #f45a40;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+.about p {
+	text-align: justify;
+	text-indent: 30px;
+}
+
+.map {
+	width: 100%;
+	height: 300px;
+}
+
+/*===================sign-up===============*/
+.sign-up {
+	min-height: 100px;
+	background: #f45a40;
+}
+
+.sign-up p {
+	font-size: 23px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 35px;	
+}
+
+.sign-up .form-inline {
+	margin-top: 35px;
+}
+
+.sign-up .form-group .form-control  {
+	height:38px;
+	padding: 6px 24px;
+	text-transform: uppercase;
+}
+
+ .btn-signUp {
+	height: 38px;
+	color: #fff;
+	background: #ff674f;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 6px 24px;
+	}
+	
+/*=======================footer======================*/
+footer {
+	background: #2a2d34;
+	color: #7e7f84;
+	padding: 30px 10px;
+}
+
+footer h3 {
+	color: #fff;	
+}
+footer a, footer a:hover {
+	color:#fff;
+}
+
+footer .form-horizontal {
+	display: block;
+	width: 100%;
+}
+
+footer .form-group .form-control {
+	margin-right: 0;
+	margin-left: 0;	
+	text-transform: uppercase;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.carousel-caption {
+			position: absolute;
+			width: 200px;
+			height: auto;
+			top: 20%;
+			left: 3%;	
+			padding: 0;
+		}
+
+		.carousel-caption h1 {
+			font-size: 40px;
+			color: #f45a40;
+			text-transform: uppercase;
+			width: 260px;
+		}
+		.carousel-caption p {
+			font-size: 14px;
+			color: #f45a40;
+			width: 260px;
+		}
+		.popul-prod-item {
+			padding: 0;	
+			position: relative;
+			height: 380px;
+		}
+		.sign-up {
+		min-height: 100px;
+		background: #f45a40;
+		}
+
+		.sign-up p {
+			font-size: 18px;
+			color: #fff;
+			text-transform: uppercase;
+			margin-top: 40px;	
+		}
+
+		.sign-up .form-inline {
+			margin-top: 15px;
+		}
+
+		.sign-up .form-group .form-control  {
+			height:38px;
+			padding: 6px 24px;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+
+		 .btn-signUp {
+			height: 38px;
+			color: #fff;
+			background: #ff674f;
+			text-transform: uppercase;
+			font-weight: bold;
+			padding: 6px 24px;
+			margin-bottom: 10px;
+			}
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.carousel-caption {
+			position: absolute;
+			width: 200px;
+			height: auto;
+			top: 20%;
+			left: 3%;	
+			padding: 0;
+		}
+
+		.carousel-caption h1 {
+			font-size: 36px;
+			color: #f45a40;
+			text-transform: uppercase;
+			width: 240px;
+		}
+		.carousel-caption p {
+			font-size: 14px;
+			color: #f45a40;
+			width: 240px;
+		}
+		.sign-up {
+		min-height: 100px;
+		background: #f45a40;
+		}
+
+		.sign-up p {
+			font-size: 18px;
+			color: #fff;
+			text-transform: uppercase;
+			margin-top: 40px;	
+		}
+
+		.sign-up .form-inline {
+			margin-top: 15px;
+		}
+
+		.sign-up .form-group .form-control  {
+			height:38px;
+			padding: 6px 24px;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+
+		 .btn-signUp {
+			height: 38px;
+			color: #fff;
+			background: #ff674f;
+			text-transform: uppercase;
+			font-weight: bold;
+			padding: 6px 24px;
+			margin-bottom: 10px;
+			}
+			.popul-prod-item {
+			padding: 0;	
+			position: relative;
+			height: 380px;
+		}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 688px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+		.logo {
+			float: none !important;
+			text-align: center;
+			padding-top: 10px;
+			margin-bottom: 0;
+		}
+		.navbar-text {
+			width: 100%;
+	margin: 25px 0 10px;
+	text-align: center;
+	
+}
+
+		.phone {
+			font-size: 12px;
+			margin-right: 5px;
+			
+		}
+		.phone img {
+			margin: 0;
+		}
+
+		.shopCart {
+			border:1px solid #ccc;
+			padding: 5px;
+			margin-bottom: 10px;
+		}
+
+		.shopCart .fa-shopping-cart {
+			padding: 0 3px;
+		}
+
+		.shopCart a {
+			text-transform: uppercase;
+			color: #7e7f84;
+			text-decoration: none;
+		}
+		
+		.carousel-caption {
+			position: absolute;
+			width: 150px;
+			height: auto;
+			top: 5%;
+			left: 1.5%;	
+			padding: 0;
+		}
+
+		.carousel-caption h1 {
+			font-size: 18px;
+			color: #f45a40;
+			text-transform: uppercase;
+			width: 120px;
+		}
+		.carousel-caption p {
+			font-size: 10px;
+			color: #f45a40;
+			width: 120px;
+		}
+		
+		.sign-up p {
+			font-size: 18px;
+			color: #fff;
+			text-transform: uppercase;
+			margin-top: 35px;
+			text-align: center;	
+		}
+
+		.sign-up .form-inline {
+			margin-top: 5px;
+			width: 100%;
+			
+		}
+
+		.sign-up .form-group .form-control  {
+			height:38px;
+			padding: 6px 24px;
+			text-transform: uppercase;						
+		}
+
+		 .btn-signUp {
+			height: 38px;
+			color: #fff;
+			background: #ff674f;
+			text-transform: uppercase;
+			font-weight: bold;
+			padding: 6px 24px;
+			width: 100%;
+			margin-bottom: 10px;
+			}
+			
+			.popul-prod-item {
+				padding: 0;	
+				position: relative;
+				height: 430px;
+			}
+
+			.popul-prod-item .prod-img {
+				width:100%;	
+				text-align: center;
+				margin: 0 auto;
+				
+			}
+
+			.popul-prod-item .prod-img img {
+				margin:0 auto;	
+				padding: 5px 10px;
+			}			
+
+}
